@@ -1,6 +1,6 @@
 library(olsrr)
 data <-
-  read.csv("C:/Users/Artem/Documents/Coding/R_projects/data_big.csv")
+  read.csv("./datasets/data_big.csv")
 
 df <- data[c(1:30, 32:34), c(56, 23, 24, 26:31)]
 LM <-

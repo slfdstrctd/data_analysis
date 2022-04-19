@@ -1,7 +1,7 @@
 library(survival)
 library(survminer)
 
-df <- read.csv("~/Coding/R_projects/points5.csv", sep = ";")
+df <- read.csv("./datasets/points5.csv", sep = ";")
 df <- subset(df, select = c(-1))
 head(df)
 

@@ -1,7 +1,7 @@
 library(ggplot2)
 
 df <-
-  read.csv("C:/Users/Artem/Documents/Coding/R_projects/untitled5/DataV.csv",
+  read.csv("./datasets/DataV.csv",
            encoding = "UTF-8")
 
 df <- subset(df, select = c(-1))

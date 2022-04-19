@@ -2,7 +2,7 @@ library(dplyr)
 library(ggplot2)
 library(Hotelling)
 
-data <- read.csv("~/Coding/R_projects/data_big.csv")
+data <- read.csv("./datasets/data_big.csv")
 
 ps <- c('HR.2', 'SBP.2', 'SV.2', 'MBP.2')
 df <- data[ps]
